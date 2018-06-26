@@ -21,9 +21,11 @@ class HitTheNumberTests: XCTestCase {
         super.tearDown()
     }
     
-    func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+    func test_RandomNumber() {
+        let vc = ViewController()
+        let max = 1000
+        let random = vc.generateRandomNumber(max: max)
+        XCTAssertLessThan(random, max, "Success")
     }
     
     func testPerformanceExample() {

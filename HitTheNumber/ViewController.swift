@@ -26,6 +26,10 @@ class ViewController: UIViewController {
         alert.addAction(action)
         present(alert, animated: true, completion: nil)
     }
+    
+    func generateRandomNumber(max: Int) -> Int {
+        return Int(arc4random_uniform(UInt32(max)))
+    }
 
 }
 
