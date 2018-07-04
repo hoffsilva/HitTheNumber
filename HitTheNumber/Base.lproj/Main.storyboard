@@ -144,6 +144,12 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="roundLabel" destination="Puz-5n-asc" id="de4-he-ci1"/>
+                        <outlet property="scoreLabel" destination="eSs-Ik-JkD" id="Nl5-v4-Lt6"/>
+                        <outlet property="slider" destination="RNV-0O-9NV" id="pYH-Kf-dl8"/>
+                        <outlet property="targetLabel" destination="0ME-Q5-w9z" id="MD0-t4-A9T"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
